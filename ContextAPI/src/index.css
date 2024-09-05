@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light Theme */
+html.light {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+}
+
+/* Dark Theme */
+html.dark {
+  --bg-color: #000000;
+  --text-color: #ffffff;
+}
+
+/* Apply theme colors */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
